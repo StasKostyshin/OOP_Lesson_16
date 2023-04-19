@@ -85,6 +85,7 @@ def decor(func):
         return num_list
     return wrapped
 
+
 @decor
 def in_a():
     list_3 = []
